@@ -1,0 +1,95 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headcenter{
+    width: 95%;
+    height: 120px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #f7f8f8;
+}
+.l-m-p-links a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+}
+.l-m-p{
+    padding-top: 15px;
+}
+.l-m-p-links{
+    display: inline-block;
+    margin-left: 20px;
+}
+.iconcircule{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background:linear-gradient( to bottom ,lightgray,white) ;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.l-s-b{
+    width: 100%;
+    height: 70px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo img{
+    margin-top: 15px;
+}
+
+.searchlocation{
+    display: inline-block;
+}
+.pak{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    display: flex;
+}
+.Pakistanangle-down{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.searchlocation input{
+    width: 86%;
+    height: 100%;
+    margin-left: 40PX;
+    padding: 20px 0 20px 10px;
+    /* background-color: yellowgreen; */
+    border: none;
+    font-size: 15PX;
+    color: black;
+}
+.searchfind{
+    width: 600px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+}
+.searchfind input{
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    font-size: 15px;
+    background-color: aqua;
+}
